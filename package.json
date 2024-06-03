@@ -1,6 +1,6 @@
 {
   "name": "fdf-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to generate fdf (Forms data format) files",
 	"type": "module",
 	"exports": {
