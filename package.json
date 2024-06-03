@@ -1,0 +1,41 @@
+{
+  "name": "fdf-tools",
+  "version": "1.0.0",
+  "description": "A package to generate fdf (Forms data format) files",
+	"type": "module",
+	"exports": {
+		"types": "./dist/index.d.ts",
+		"default": "./dist/index.js"
+	},
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "del-cli dist && tsc"
+  },
+  "repository": "prkagrawal/fdf-tools",
+  "keywords": [
+    "fdf",
+    "pdf",
+    "form",
+    "data",
+    "format",
+    "fillable",
+    "pdftk",
+    "auto-fill"
+  ],
+  "author": {
+    "name": "Prince Agrawal",
+    "email": "agrawalprk@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prkagrawal/fdf-tools/issues"
+  },
+  "homepage": "https://github.com/prkagrawal/fdf-tools#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "del-cli": "^5.1.0",
+    "typescript": "^5.4.5"
+  }
+}
